@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 
 
-def calculate(*args):
+def calculate():
     try:
         value = float(valeur_entree.get())
         resultat.set(int(0.3048 * value * 10000.0 + 0.5)/10000.0)
@@ -31,7 +31,7 @@ ttk.Label(cadre_principal, textvariable=resultat, borderwidth=1, relief="solid")
     column=2, row=2, sticky=(W, E))
 
 # -> bouton "calculer"
-ttk.Button(cadre_principal, text="Calculate", command=calculate).grid(
+ttk.Button(cadre_principal, text="Calculer", command=calculate).grid(
     column=3, row=3, sticky=W)
 
 # -> labels
