@@ -1,0 +1,3 @@
+git -a -m 'message"
+git status
+git push ou git push origin main
