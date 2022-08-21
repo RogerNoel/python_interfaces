@@ -29,7 +29,7 @@ cadre3.grid(column=1, row=1)
 lbl_cadre3 = ttk.Label(cadre3, text='Cadre 3').grid()
 
 cadre4 = ttk.Frame(cadrePrincipal, padding=10, width=200,
-                   height=30, borderwidth=4, relief='raised')
+                   height=30)
 cadre4.grid(column=0, row=2)
 lbl_cadre4 = ttk.Label(cadre4, text='cadre 4 sous les autres').grid()
 
